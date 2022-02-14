@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(103, 155, 124);
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  width: 200px;
+  background-color: azure;
+  text-align: center;
+}
+table tr {
+  background-color: blanchedalmond;
+}
+
+table tr th {
+  color: dodgerblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: darkgray;
+}
+
+button {
+  background-color: blueviolet;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  size: 100px;
+}
+
+button:hover {
+  background-color: brown;
+  color: whitesmoke;
+}
+
+.group {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px; /* klo 1 , untuk semua , klo 2 untuk atasbawah , kiri kanan -> klo 4 ats kanan bawah kiri */
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+label {
+  color: #999;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: normal;
+  /* position: absolute; */
+  /* pointer-events: none; */
+  left: 5px;
+  top: 10px;
+}
+
+img {
+  border-radius: 100px;
+}
